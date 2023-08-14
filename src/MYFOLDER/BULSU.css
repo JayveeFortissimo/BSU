@@ -1,0 +1,149 @@
+
+body{
+
+background-image: url(BSU.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+
+.JOJO1{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+
+
+.Parent{
+    display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#username,#password{
+    text-align: center;
+    height: 2rem;
+    width: 100%;
+    max-width: 280px;
+}
+
+#Remember{
+    color: white;
+}
+
+#home,#lock{
+    
+    position: relative;
+    top: 0px;
+    left: 30px;
+}
+
+.Email{
+    margin-top: 15px;
+}
+
+#buttons{
+    margin-left: 123px;
+}
+
+.UNDER{
+    margin-top: 30px;
+}
+
+#BTN{
+    height: 2rem;
+    width: 4rem;
+    border: none;
+    background-color: rgb(13, 115, 248);
+    cursor: pointer;
+    color: white;
+    text-align: left;
+}
+
+#arrow{
+    position: relative;
+    right: 20px;
+    top: 3px;
+    color: white;
+}
+
+.Password{
+    margin-top: 20px;
+}
+
+.Child{
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -5px -5px rgba(0,0,0,0.5);
+    backdrop-filter: blur(15px);
+    height: auto;
+    width: 100%;
+    max-width: 370px;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+
+    
+}
+
+.text h1{
+    color: white;
+    font-size: 1.5em;
+   margin-top: 50px;
+   position: relative;
+   right: 40px;
+}
+
+
+.middle{
+    margin-top: 5px;
+}
+
+h2{
+    color: white;
+    position: relative;
+    right: 40px;
+}
+
+p{
+    color: white;
+}
+
+#LINK{
+    color: aqua;
+   
+    cursor: pointer;
+}
+
+#LINK:hover{
+    text-decoration: underline;
+}
+
+.TT p{
+    font-size: 0.8em;
+}
+
+.TT{
+    position: relative;
+    right: 40px;
+  
+}
+
+#LINK2{
+    color: rgb(0, 140, 255);
+    cursor: pointer;
+}
+
+#LINK2:hover{
+text-decoration: underline;
+}
+
+.CREATE{
+    background-color: aqua;
+    height:20px;
+    cursor: pointer;
+}

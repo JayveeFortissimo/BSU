@@ -1,0 +1,89 @@
+.ACT2{
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    height: 17rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ACT1{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.ACT2 div p{
+    color: black;
+}
+
+#EM{
+height: 2rem;
+width: 300px;
+}
+
+
+.BTN2 span{
+    margin-left: 200px;
+}
+
+.BTN2 button{
+    height: 2rem;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.BTN2{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    
+
+    .ACT2{
+        background-color: white;
+        width: 100%;
+        max-width: 400px;
+        height: 17rem;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+
+
+    .ACT2 div h1{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .ACT2 p{
+        font-size: 0.8em;
+    }
+
+
+    #EM{
+        height: 2rem;
+        width: 250px;
+        
+        }
+
+.INSO{
+    text-align: center;
+}
+
+.BTN2 span{
+    margin-left: 50px;
+}
+
+
+
+}
